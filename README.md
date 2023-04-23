@@ -1,14 +1,3 @@
-# Cryptography Term Project Assignment 2
-## Group 2 Details
-
-| Name | ID     | 
-| :-------- | :------- |
-| `Varad Gorantyal` | `2021A4PS1995HH` | 
-| `Pratik Patil` | `2021A7PS3115H` |
-| `Saksham Sawhney` | `2021A4PS3195H` |  
-| `Himanshu Patil` | `2021A7PS2858H` |
-| `Sahil Somil` | `2021AAPS1582H` |  
-
 # Decentralized Crowdfunding Platform
 This project aims to develop a system for land management with the following characteristics:
 1. To register new users to the system with previously owned property
