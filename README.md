@@ -1,5 +1,16 @@
 # Decentralized Crowdfunding Platform
-This project aims to develop a system for land management with the following characteristics:
+
+## Contributors:
+| Name |
+| :-------- |
+| `Pratik Patil` |
+| `Himanshu Patil` |
+| `Varad Gorantyal` |
+| `Saksham Sawhney` |
+| `Sahil Somil` |
+
+#Aim:
+This project aims to develop a system for crowd funding platform with the following characteristics:
 1. To register new users to the system with previously owned property
 2. The user can buy and sell the property.
 3. Proof Of Work(PoW) consensus algorithm is incorporated to improve the security of the blockchain.
