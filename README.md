@@ -1,4 +1,4 @@
-# Decentralized Crowdfunding Platform
+# Decentralized Crowd Funding Platform
 
 ## Contributors:
 | Name |
@@ -9,20 +9,15 @@
 | `Saksham Sawhney` |
 | `Sahil Somil` |
 
-# Aim:
-This project aims to develop a system for crowd funding platform with the following characteristics:
-1. To register new users to the system with previously owned property
-2. The user can buy and sell the property.
-3. Proof Of Work(PoW) consensus algorithm is incorporated to improve the security of the blockchain.
-4. Implementation of Merkle tree to calculate root hash of all the transactions inside a block.
-5. User can view the transaction history that is related to a property.
+## Aim:
+This project aims to develop a system for crowd funding platform ustilising the ZKP(Zero Knowledge Proof), which is implemented using through Schnorr Signature Scheme.
 
-# Technology Used: 
+## Technology Used: 
 - C++
 
-# Working of Every Module:
+## Working of Every Module:
 
-## main.cpp file
+### main.cpp file
 Functions:
 - `main()`: The main function of the program which controls the flow of execution.
 - `BLOCKCHAIN(int, int, int, int)`: A constructor for the `BLOCKCHAIN` class which initializes the blockchain with the specified parameters.
@@ -52,7 +47,7 @@ Variables:
 - `user_idTemp`: A temporary variable used to store the user_id of a user whose transactions are to be viewed or verified.
 - `amountTemp`: A temporary variable used to store the amount of money to be verified in a transaction.
 
-## Blockchain.hpp file
+### Blockchain.hpp file
 Functions:
 - `BLOCKCHAIN(int diff, int p, int q, int a)`: a constructor that takes the mining difficulty and the integers `p`, `q`, and `a` as arguments. It creates a genesis    block and adds it to the blockchain.
 - `void getTotalDonations()`: a function that prints the total amount of donations.
@@ -75,7 +70,7 @@ Variables:
 - `double totalDonation`: a double representing the total amount of donations.
 - `set<string> idS`: a set that stores the unique IDs of the donators.
 
-## Block.hpp file
+### Block.hpp file
 Functions:
 - `BLOCK(int idx, const string &prevHash)`: A constructor function that initializes the `BLOCK` object with an `index` and a `previousHash`, sets the current `timeStamp`, and calculates the `hash` of the block.
 - `void setHash(const string &newHash)`: A setter function to update the value of the `hash` variable.
@@ -96,7 +91,7 @@ Variables:
 - `string previousHash`: A string variable to store the hash code of the previous block in the blockchain.
 - `string hash`: A string variable to store the hash code of the current block or the block under consideration.
 
-## Transaction.hpp file
+### Transaction.hpp file
 Functions:
 - `hash<string>{}(M + to_string(x))`: computes a hash value for a given string, which is a deterministic output based on the input. Here, it is used to generate the signature for the transaction.
 
