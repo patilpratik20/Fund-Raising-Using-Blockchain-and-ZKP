@@ -9,7 +9,7 @@
 | `Saksham Sawhney` |
 | `Sahil Somil` |
 
-#Aim:
+# Aim:
 This project aims to develop a system for crowd funding platform with the following characteristics:
 1. To register new users to the system with previously owned property
 2. The user can buy and sell the property.
