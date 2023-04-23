@@ -10,7 +10,7 @@
 | `Sahil Somil` |
 
 ## Aim:
-This project aims to develop a system for crowd funding platform ustilising the ZKP(Zero Knowledge Proof), which is implemented using through Schnorr Signature Scheme.
+This project aims to develop a system for crowd funding platform utilising the ZKP(Zero Knowledge Proof), which is implemented using through Schnorr Signature Scheme.
 
 ## Technology Used: 
 - C++
