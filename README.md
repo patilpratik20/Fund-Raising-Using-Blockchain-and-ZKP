@@ -41,7 +41,7 @@ Variables:
 - `user_idTemp`: A temporary variable used to store the user_id of a user whose transactions are to be viewed or verified.
 - `amountTemp`: A temporary variable used to store the amount of money to be verified in a transaction.
 
-## blockchain.hpp file
+## Blockchain.hpp file
 Functions:
 - `BLOCKCHAIN(int diff, int p, int q, int a)`: a constructor that takes the mining difficulty and the integers `p`, `q`, and `a` as arguments. It creates a genesis    block and adds it to the blockchain.
 - `void getTotalDonations()`: a function that prints the total amount of donations.
@@ -64,7 +64,7 @@ Variables:
 - `double totalDonation`: a double representing the total amount of donations.
 - `set<string> idS`: a set that stores the unique IDs of the donators.
 
-## block.hpp file
+## Block.hpp file
 Functions:
 - `BLOCK(int idx, const string &prevHash)`: A constructor function that initializes the `BLOCK` object with an `index` and a `previousHash`, sets the current `timeStamp`, and calculates the `hash` of the block.
 - `void setHash(const string &newHash)`: A setter function to update the value of the `hash` variable.
