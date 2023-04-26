@@ -1,6 +1,6 @@
 # Decentralized Crowd Funding Platform
 
-## Contributors:
+## Contributors
 | Name |
 | :-------- |
 | `Pratik Patil` |
@@ -9,13 +9,13 @@
 | `Saksham Sawhney` |
 | `Sahil Somil` |
 
-## Aim:
+## Aim
 This project aims to develop a system for crowd funding platform utilising the ZKP(Zero Knowledge Proof), which is implemented using through Schnorr Signature Scheme.
 
-## Technology Used: 
+## Technology Used
 - C++
 
-## Working of Every Module:
+## Working of Every Module
 
 ### main.cpp file
 Functions:
