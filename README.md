@@ -1,4 +1,4 @@
-# Decentralized Crowd Funding Platform
+# Decentralized Funding Raising Platform
 
 ## Contributors
 | Name |
@@ -10,7 +10,7 @@
 | `Sahil Somil` |
 
 ## Aim
-This project aims to develop a system for crowd funding platform utilising the ZKP(Zero Knowledge Proof), which is implemented using through Schnorr Signature Scheme.
+This project aims to develop a system for funding raising utilising the ZKP(Zero Knowledge Proof), which is implemented using through Schnorr Signature Scheme.
 
 ## Technology Used
 - C++
